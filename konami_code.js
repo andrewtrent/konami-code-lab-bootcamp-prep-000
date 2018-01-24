@@ -20,6 +20,6 @@ function onKeyDownHandler(e) {
 
 function init() {
   var body = document.querySelector('body')
-  body.addEventListener("key", onKeyDownHandler)
+  body.addEventListener("keydown", onKeyDownHandler)
 }
 init()
